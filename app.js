@@ -4,7 +4,7 @@ function playSound(event) {
   //   console.log(event.keyCode);
   const audio = document.querySelector(`.soundBar${event.keyCode}`);
 
-  let key = document.querySelector(`.key[data-key = "${event.keyCode}`);
+  let key = document.querySelector(`.key[data-key = "${event.keyCode}"`);
   //   console.log(key);
 
   // if audio not present at that key you just press it will return nothing
